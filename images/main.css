@@ -14,9 +14,26 @@
 
 /*mobile*/
 .navigation{
+    overflow: hidden;
+    position: relative;
     display: flex;
     flex-direction: row;
-    background-color: var(--mainmain);
+    background-color: var(--very-light-gray);
+    height: 100px;
+}
+.navigation a{
+    padding: 14px 16px;
+    display: inline;
+    text-decoration: none;
+}
+.nav{
+    display: none;
+}
+.navigation a.icon{
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
 }
 
 /*desktop*/
