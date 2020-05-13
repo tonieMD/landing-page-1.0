@@ -110,10 +110,6 @@ margin-bottom: 0px;
     justify-content: center;
     
 }
-.item{
-    
-}
-
 .img-item{
     margin-left:6.5rem;
     
@@ -123,6 +119,15 @@ margin-bottom: 0px;
 }
 .p-item{
     margin:2rem;
+}
+.find-out{
+    background-color:var(--mainmain);
+    background-image:url('bg-pattern-how-we-work-mobile.svg');
+    background-size:auto;
+    background-repeat:no-repeat;
+    background-position:right top;
+    width:100%;
+    padding:4rem 6rem;
 }
 /*diff*/
 /*desktop*/
