@@ -92,6 +92,38 @@ margin-bottom: 0px;
     background: var(--very-light-gray);
     color: var(--dark-violet);
 }
+.grid{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+
+
+}
+.grid .text-xl{
+    align-self: center;
+    margin:1rem;
+    font-size: 2.5em;
+}
+.items-container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.item{
+    
+}
+
+.img-item{
+    margin-left:6.5rem;
+    
+}
+.h2-item{
+    margin-left:3.5rem;
+}
+.p-item{
+    margin:2rem;
+}
 /*diff*/
 /*desktop*/
 /**/
