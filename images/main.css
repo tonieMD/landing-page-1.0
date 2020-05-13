@@ -38,13 +38,25 @@
 }
 /*header*/
 .body{
-    background-color: var(--Very-Dark-Violet);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('bg-pattern-intro-right-mobile.svg'),url('bg-pattern-intro-left-desktop.svg');
+    padding: 10px 20px 10px 20px;
+    margin-top: 0px;
 }
 .body h1{
     margin-top: 40px;
     color: #ffffff;
-    font-weight: 400;
+    font-weight: 700;
     font-family: DM serif display;
+    align-self: center;
+    
+}
+.img-mobo{
+width: 100%;
+height: auto;
+margin-bottom: 0px;
 }
 
 /*desktop*/
