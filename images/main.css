@@ -1,9 +1,15 @@
 /*general styles*/
-*body{
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Karla:wght@400;700&display=swap');
+*{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    
+    
+}
+body{
+    font-family:'Karla';
     font-size: 16px;
-    font-family:Karla;
 }
 :root{
     --mainmain:hsl(256, 26%, 20%);
@@ -11,6 +17,19 @@
     --Very-Dark-Violet:hsl(270, 9%, 17%);
     --Dark-Grayish-Violet: hsl(273, 4%, 51%);
     --very-light-gray:hsl(0, 0%, 98%);
+}
+.text-p{
+    font-family: inherit;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+.text-lg{
+font-weight: 400px;
+font-size: 2.5em;
+}
+.text-md{
+    font-size: 1.7em;
+    margin-bottom: 1.8rem;
 }
 
 /*mobile*/
@@ -54,14 +73,7 @@ header{
     margin-top: 40px;
     font-weight: 700;
     font-family: DM serif display;
-    align-self: center;
-
-    
-}
-.body p{
-    line-height: 1.6;
-    margin-bottom: 10px;
-}
+    align-self: center;}
 .img-mobo{
 width: 100%;
 height: auto;
@@ -69,12 +81,17 @@ margin-bottom: 0px;
 }
 .button{
     padding: 10px 20px 10px 20px;
-    background-color: var(--mainmain);
+    background-color: transparent;
     border: 2px solid var(--very-light-gray);
     text-transform: uppercase;
     color: var(--very-light-gray);
     margin-bottom: 40px;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
 }
+.button:hover {
+    background: var(--very-light-gray);
+    color: var(--dark-violet);
 /*diff*/
 .diff{
     background-color: red;
