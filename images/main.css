@@ -79,23 +79,20 @@ width: 100%;
 height: auto;
 margin-bottom: 0px;
 }
-.button{
+.btn{
     padding: 10px 20px 10px 20px;
-    background-color: transparent;
+    background: transparent;
     border: 2px solid var(--very-light-gray);
     text-transform: uppercase;
     color: var(--very-light-gray);
-    margin-bottom: 40px;
     cursor: pointer;
     transition: all .5s ease-in-out;
 }
-.button:hover {
+.btn:hover {
     background: var(--very-light-gray);
     color: var(--dark-violet);
-/*diff*/
-.diff{
-    background-color: red;
 }
+/*diff*/
 /*desktop*/
 /**/
 /**/
