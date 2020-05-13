@@ -106,21 +106,27 @@ margin-bottom: 0px;
     margin:1rem;
     font-size: 2.5em;
 }
+.item{
+    margin: 0.7rem;
+    display: flex;
+    flex-direction: column;
+   
+}
 .items-container{
     display:flex;
     flex-direction: column;
     justify-content: center;
     
-}
-.img-item{
-    margin-left:6.5rem;
     
 }
+.img-item{
+   align-self: center;
+}
 .h2-item{
-    margin-left:3.5rem;
+    align-self: center;
 }
 .p-item{
-    margin:2rem;
+    align-self: center;
 }
 .find-out{
     background-color:var(--mainmain);
@@ -144,10 +150,12 @@ margin-bottom: 0px;
   background-size: auto;
   background-repeat: no-repeat;
   background-position: center top;
+  display: flex;
+  flex-direction: column;
 
 }
 .top{
-margin-left:5rem;
+align-self:center;
 }
 .social-links{
     display:flex;
